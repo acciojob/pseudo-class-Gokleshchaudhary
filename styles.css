@@ -1,22 +1,20 @@
 #container {
-    margin: 20px; /* Space around the container */
-    position: relative; /* Allows absolute positioning of pseudo-elements */
-    padding: 20px; /* Optional: Adds padding inside the container */
-    border: 1px solid #000; /* Optional: Adds a border for visibility */
+    margin: 20px;
+    position: relative; /* Required for pseudo-elements positioning */
 }
 
 #container::before {
-    content: "Before Text"; /* Text to display before the container's content */
+    content: "Before Content"; /* Change this to whatever text you want */
     color: #f00; /* Red color */
-    font-size: 20px; /* Font size */
-    display: block; /* Ensures it takes full width */
-    margin-bottom: 10px; /* Space between before text and container content */
+    font-size: 20px;
+    display: block; /* Make it a block element */
+    margin-bottom: 10px; /* Space between before content and container */
 }
 
 #container::after {
-    content: "After Text"; /* Text to display after the container's content */
+    content: "After Content"; /* Change this to whatever text you want */
     color: #f00; /* Red color */
-    font-size: 20px; /* Font size */
-    display: block; /* Ensures it takes full width */
-    margin-top: 10px; /* Space between container content and after text */
+    font-size: 20px;
+    display: block; /* Make it a block element */
+    margin-top: 10px; /* Space between container and after content */
 }
