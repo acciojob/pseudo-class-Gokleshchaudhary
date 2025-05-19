@@ -1,20 +1,20 @@
 #container {
     margin: 20px;
-    position: relative; /* Required for pseudo-elements positioning */
+    position: relative; /* Pseudo-elements ke liye zaroori hai */
 }
 
 #container::before {
-    content: "Before Content"; /* Change this to whatever text you want */
+    content: "Before Content"; /* Yahan aap apna text daal sakte hain */
     color: #f00; /* Red color */
     font-size: 20px;
-    display: block; /* Make it a block element */
-    margin-bottom: 10px; /* Space between before content and container */
+    display: block; /* Block element banane ke liye */
+    margin-bottom: 10px; /* Container aur before content ke beech space */
 }
 
 #container::after {
-    content: "After Content"; /* Change this to whatever text you want */
+    content: "After Content"; /* Yahan aap apna text daal sakte hain */
     color: #f00; /* Red color */
     font-size: 20px;
-    display: block; /* Make it a block element */
-    margin-top: 10px; /* Space between container and after content */
+    display: block; /* Block element banane ke liye */
+    margin-top: 10px; /* Container aur after content ke beech space */
 }
