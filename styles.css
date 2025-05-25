@@ -3,20 +3,20 @@
     padding: 15px; /* Optional: padding for better spacing */
     border: 1px solid #ccc; /* Optional: border for visibility */
     background-color: #f8f8f8; /* Optional: background color */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center align items vertically */
 }
 
 #container::before {
-    content: "Before Element"; /* Aap yahan text daal sakte hain */
+    content: "Before Content"; /* Aap yahan text daal sakte hain */
     color: #f00; /* Red color */
-    font-size: 20px; /* Font size */
-    display: block; /* Block display to make it occupy space */
-    margin-bottom: 10px; /* Space between before content and container */
+    font-size: 30px; /* Font size increased */
+    margin-right: 10px; /* Space between before content and container */
 }
 
 #container::after {
-    content: "After Element"; /* Aap yahan text daal sakte hain */
+    content: "After Content"; /* Aap yahan text daal sakte hain */
     color: #f00; /* Red color */
-    font-size: 20px; /* Font size */
-    display: block; /* Block display to make it occupy space */
-    margin-top: 10px; /* Space between after content and container */
+    font-size: 30px; /* Font size increased */
+    margin-left: 10px; /* Space between after content and container */
 }
