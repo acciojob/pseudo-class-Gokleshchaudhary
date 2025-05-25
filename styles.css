@@ -10,6 +10,7 @@
     position: absolute; /* Positioning relative to the container */
     top: -30px; /* Adjust as necessary */
     left: 0; /* Align to the left */
+	display: flex;
 }
 
 #container::after {
@@ -19,4 +20,5 @@
     position: absolute; /* Positioning relative to the container */
     bottom: -30px; /* Adjust as necessary */
     left: 0; /* Align to the left */
+	display: flex;
 }
