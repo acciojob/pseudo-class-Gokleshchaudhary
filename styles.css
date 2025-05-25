@@ -1,22 +1,22 @@
 #container {
-  margin: 20px;
-  padding: 15px;
-  border: 1px solid #ccc;
-  background-color: #f8f8f8;
+    margin: 20px;
+    position: relative; /* This is important for positioning pseudo-elements */
 }
 
 #container::before {
-  content: "Before Content";
-  display: block;
-  color: #f00;
-  font-size: 20px;
-  margin-bottom: 10px;
+    content: "Before Text"; /* Replace with your desired text */
+    color: #f00; /* Red color */
+    font-size: 20px; /* Font size */
+    position: absolute; /* Positioning relative to the container */
+    top: -30px; /* Adjust as necessary */
+    left: 0; /* Align to the left */
 }
 
 #container::after {
-  content: "After Content";
-  display: block;
-  color: #f00;
-  font-size: 20px;
-  margin-top: 10px;
+    content: "After Text"; /* Replace with your desired text */
+    color: #f00; /* Red color */
+    font-size: 20px; /* Font size */
+    position: absolute; /* Positioning relative to the container */
+    bottom: -30px; /* Adjust as necessary */
+    left: 0; /* Align to the left */
 }
